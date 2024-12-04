@@ -1,0 +1,26 @@
+.hero {
+    background-image: url('/placeholder.svg?height=400&width=1200');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.product-card {
+    transition: transform 0.3s;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px;
+}
+.hero{
+    background-image: url(https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421149.jpg?t=st=1729398562~exp=1729402162~hmac=875d1d05b7d4bcccbb90ccb939d554bcf80549acde87abcb077fb0b44aa37227&w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shop-btn:hover{
+    background-color: black !important;
+    color: green !important;
+}
+.border-rad{
+    border-radius: 10px;
+    padding: 10px;
+}
